@@ -71,12 +71,13 @@ body {
   .hero-body {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     gap: 32px;
   }
 
   .content {    
     flex: 1 1 50%;
+    height: 300px;
   }
 
   .hero img {
@@ -85,4 +86,98 @@ body {
     object-fit: cover;
     object-position: 0 60%;
     flex: 1 1 50%;
+    border-radius: 10px;
   }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 128px;
+  }
+
+  .info h3 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    margin: 64px;
+  }
+
+  .pics {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .icon {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    margin: 0 32px;
+    text-align: center;
+  }
+
+  .info img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 8px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+  }
+
+  #beanie {
+    object-position: 0 80%;
+  }
+
+  .quote {
+    background-color: #e5e7eb;
+    padding: 128px 256px;
+  }
+
+  #quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style:italic;
+    color:#1f2937;
+  }
+
+  #name {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1f2937;
+    text-align: right;
+  }
+
+  .action {
+    background-color: #3882f6;
+    margin: 128px 200px;
+    padding: 64px 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .action-header {
+    color:#f9faf8;
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  .funnel-text {
+    color: #e5e7eb;
+  }
+
+  .action button {
+    border: 2px solid #f9faf8;
+    font-weight: 700;
+  }
+
+  .footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 32px;
+  }
+  
